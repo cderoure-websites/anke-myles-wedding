@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/anke-myles-wedding/static/css/main.bb72ee22.css",
-    "main.js": "/anke-myles-wedding/static/js/main.d62af1be.js",
-    "static/js/787.7cbe4b7b.chunk.js": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js",
-    "static/media/family-christmas.jpeg": "/anke-myles-wedding/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
-    "static/media/family-happy.jpeg": "/anke-myles-wedding/static/media/family-happy.cf1c6330b6dfe46c6576.jpeg",
-    "static/media/vacation-pool.jpeg": "/anke-myles-wedding/static/media/vacation-pool.2ee01d1d6575854a6e15.jpeg",
-    "static/media/proposal-crop.jpeg": "/anke-myles-wedding/static/media/proposal-crop.fae22ec3ce6a16d3b049.jpeg",
-    "static/media/engagement-ring.jpeg": "/anke-myles-wedding/static/media/engagement-ring.a14b410c02eafb73da28.jpeg",
-    "static/media/flowers-crop-left.jpg": "/anke-myles-wedding/static/media/flowers-crop-left.30da7ccbbc067ce26dff.jpg",
-    "static/media/vacation-heart.jpeg": "/anke-myles-wedding/static/media/vacation-heart.a8b72b003c05dcba0d32.jpeg",
-    "static/media/sydney-bridge.jpeg": "/anke-myles-wedding/static/media/sydney-bridge.2306531ad01026fe7dd4.jpeg",
-    "static/media/flowers-crop-right.jpg": "/anke-myles-wedding/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
-    "index.html": "/anke-myles-wedding/index.html",
-    "main.bb72ee22.css.map": "/anke-myles-wedding/static/css/main.bb72ee22.css.map",
-    "main.d62af1be.js.map": "/anke-myles-wedding/static/js/main.d62af1be.js.map",
-    "787.7cbe4b7b.chunk.js.map": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js.map"
+    "main.css": "/anke-myles-wedding/index/static/css/main.593481d1.css",
+    "main.js": "/anke-myles-wedding/index/static/js/main.f995d5b5.js",
+    "static/js/787.7cbe4b7b.chunk.js": "/anke-myles-wedding/index/static/js/787.7cbe4b7b.chunk.js",
+    "static/media/family-christmas.jpeg": "/anke-myles-wedding/index/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
+    "static/media/family-happy.jpeg": "/anke-myles-wedding/index/static/media/family-happy.cf1c6330b6dfe46c6576.jpeg",
+    "static/media/vacation-pool.jpeg": "/anke-myles-wedding/index/static/media/vacation-pool.2ee01d1d6575854a6e15.jpeg",
+    "static/media/proposal-crop.jpeg": "/anke-myles-wedding/index/static/media/proposal-crop.fae22ec3ce6a16d3b049.jpeg",
+    "static/media/engagement-ring.jpeg": "/anke-myles-wedding/index/static/media/engagement-ring.a14b410c02eafb73da28.jpeg",
+    "static/media/flowers-crop-left.jpg": "/anke-myles-wedding/index/static/media/flowers-crop-left.30da7ccbbc067ce26dff.jpg",
+    "static/media/vacation-heart.jpeg": "/anke-myles-wedding/index/static/media/vacation-heart.a8b72b003c05dcba0d32.jpeg",
+    "static/media/sydney-bridge.jpeg": "/anke-myles-wedding/index/static/media/sydney-bridge.2306531ad01026fe7dd4.jpeg",
+    "static/media/flowers-crop-right.jpg": "/anke-myles-wedding/index/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
+    "index.html": "/anke-myles-wedding/index/index.html",
+    "main.593481d1.css.map": "/anke-myles-wedding/index/static/css/main.593481d1.css.map",
+    "main.f995d5b5.js.map": "/anke-myles-wedding/index/static/js/main.f995d5b5.js.map",
+    "787.7cbe4b7b.chunk.js.map": "/anke-myles-wedding/index/static/js/787.7cbe4b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb72ee22.css",
-    "static/js/main.d62af1be.js"
+    "static/css/main.593481d1.css",
+    "static/js/main.f995d5b5.js"
   ]
 }
