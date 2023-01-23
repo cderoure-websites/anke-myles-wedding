@@ -3,13 +3,20 @@
 
 .welcome {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 
   @media (max-width: 800px) {
     padding: 20px;
+    flex-direction: column;
+  }
+
+  &-rhs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   &-rsvp {
@@ -38,16 +45,23 @@
   &-countdown {
     color: $secondaryColor;
     font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+
+    @media (max-width: 800px) {
+      padding-top: 0px;
+    }
   }
-}
 
-.welcome-title {
-  text-transform: uppercase;
-  font-size: $headingFontSize;
-  font-family: $headingFont;
-
-  @media (max-width: 800px) {
+  &-date {
+    text-transform: uppercase;
     font-size: $headingFontSize;
+    font-family: $headingFont;
+    padding-bottom: 20px;
+  
+    @media (max-width: 800px) {
+      font-size: $headingFontSize;
+    }
   }
 }
 
