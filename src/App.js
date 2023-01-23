@@ -19,9 +19,21 @@ const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
   const [loginError, setLoginError] = useState('');
   const [tab, setTab] = useState('Home');
+  const [loading, setLoading] = useState(false);
 
   const handleSuccessfulLogin = () => {
-    setLoggedIn(true);
+    // display the loading screen
+    setLoading(true);
+
+    // log the user in
+    setTimeout(() => {
+      setLoggedIn(true);
+    }, 1000);
+
+    // remove the loading screen
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
   };
 
   const handleUnsuccessfulLogin = () => {
@@ -38,6 +50,12 @@ const App = () => {
     <div className="app">
       <div className="app-content">
         {loginError && <div>Error loggin in</div>}
+
+        {loading && (
+          <div className="app-loading">
+            <div class="lds-heart"><div></div></div>
+          </div>
+        )}
 
         {loggedIn ? (
           <>
