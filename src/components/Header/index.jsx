@@ -21,6 +21,9 @@ const Header = ({ selectedTab, changeTab, loggedIn }) => {
   return (
     <header className="header">
       <img className="header-image" src={IMAGE} />
+      <div className="header-image-title">
+        Myles & Anke
+      </div>
       {loggedIn && (
         <>
           <div className="header-mobile">

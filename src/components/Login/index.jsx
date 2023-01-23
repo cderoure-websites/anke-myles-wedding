@@ -25,7 +25,7 @@ const Login = ({ onLoginSuccess }) => {
       </div>
 
       <div className="login-content">
-        Request the pleasure of your company at their wedding.
+        request the pleasure of your company at their wedding.
       </div>
 
       <div className="login-email">

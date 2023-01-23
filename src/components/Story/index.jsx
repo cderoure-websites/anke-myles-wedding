@@ -7,7 +7,7 @@ import './index.scss';
 const Story = () => {
   return (
     <div className="story">
-      <h1>The story of us</h1>
+      <h1>The story of us...</h1>
       <ul>
         <li>
           <div>♥</div>

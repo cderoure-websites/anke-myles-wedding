@@ -27,13 +27,14 @@
     }
 
     &-warning {
-      padding-top: 20px;
+      padding-top: 10px;
+      font-size: 12px;
     }
   }
 
   &-countdown {
     color: #b91328;
-    padding-top: 50px;
+    font-size: 24px;
   }
 }
 
@@ -43,15 +44,21 @@
   font-family: 'Explora', cursive;
 }
 
-.welcome-subtitle {
-  font-size: 30px;
+.welcome-signature {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Explora', cursive;
+  padding-bottom: 40px;
+  
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
 }
 
 .welcome-content {
   padding-top: 20px;
   max-width: 100%;
   line-height: 24px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 
   @media (max-width: 800px) {
     width: auto;

@@ -20,6 +20,16 @@
   max-width: 100%;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+
+  &-title {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Explora', cursive;
+    margin-top: -70px;
+    z-index: 1;
+    color: white;
+    text-align: right;
+  }
 }
 
 .header {
@@ -116,11 +126,11 @@
     &-active {
       text-decoration: underline;
       font-weight: bold;
-      color: #b91328;
+      color: #295f56;
     }
 
     &:hover {
-      color: #b91328;
+      color: #295f56;
       font-weight: bold;
       cursor: pointer;
     }

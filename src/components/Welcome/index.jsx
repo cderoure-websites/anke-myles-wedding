@@ -13,14 +13,13 @@ const calculateDaysToGo = () => {
 const Welcome = ({ onClickRSVP }) => {
   return (
     <div className="welcome">
-      <div className="welcome-title">
-        Myles & Anke
-      </div>
-      <div className="welcome-subtitle">
-        19th August 2023 | Leatherhead, England
-      </div>
+
       <div className="welcome-countdown">
         {calculateDaysToGo()} days to go!
+      </div>
+
+      <div className="welcome-title">
+        · 19th August 2023 ·
       </div>
       <p className="welcome-content">
         Yes! We are getting married!
@@ -29,7 +28,13 @@ const Welcome = ({ onClickRSVP }) => {
         Just one important thing, in the attendance section you can confirm whether or not you will be at our wedding with us. Please, confirm as soon as possible, so we can arrange everything much faster.
         Enjoy the site and see you soon, lots of love!
       </p>
+
+      <div className="welcome-signature">
+        Myles & Anke
+      </div>
       <button className="welcome-rsvp" onClick={onClickRSVP}>RSVP</button>
+      
+
       <div className="welcome-rsvp-warning">
         Please RSVP by XX/XX/2023
       </div>
