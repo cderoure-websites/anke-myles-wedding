@@ -1,15 +1,27 @@
 .images {
   padding-top: 40px;
   display: inline-flex;
-  width: 800px;
   flex-wrap: wrap;
+  justify-content: center;
 
   @media (max-width: 800px) {
     width: 100%;
   }
 
   img {
-    width: 400px;
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 5px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
 
     @media (max-width: 800px) {
       width: 100%;

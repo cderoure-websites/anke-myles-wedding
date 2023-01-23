@@ -73,8 +73,9 @@
   }
 
   &-content {
-    color: #ccc;
-    font-size: 24px;
+    font-size: 44px;
+    font-family: 'Explora', cursive;
+    color: #295f56;
     
     @media (max-width: 800px) {
       font-size: 20px;
