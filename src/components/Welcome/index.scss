@@ -45,6 +45,10 @@
   text-transform: uppercase;
   font-size: 60px;
   font-family: $headingFont;
+
+  @media (max-width: 800px) {
+    font-size: 40px;
+  }
 }
 
 .welcome-signature {

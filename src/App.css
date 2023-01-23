@@ -26,7 +26,10 @@
   width: 100%;
   background-color: #ffffff;
   z-index: 10;
-  padding-top: 40vh;
+  color: #295f56;
+  font-family: 'Explora', cursive;
+  padding-top: 45vh;
+  font-size: 40px;
   background-size: cover;
   background-size: 20%;
   background-attachment: fixed;

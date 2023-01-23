@@ -53,6 +53,7 @@ const App = () => {
 
         {loading && (
           <div className="app-loading">
+            <div>M&A</div>
             <div class="lds-heart"><div></div></div>
           </div>
         )}
