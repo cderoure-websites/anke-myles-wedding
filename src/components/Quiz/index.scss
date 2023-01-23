@@ -1,3 +1,44 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
 .quiz {
-  padding-top: 20px;
+  padding: 20px;
+
+  &-title {
+    font-family: $headingFont;
+    font-size: $headingFontSize;
+  }
+
+  &-submit {
+    border-radius: 20px;
+    border: 2px solid $secondaryColor;
+    color: $secondaryColor;
+    background: none;
+    padding: 10px;
+    margin: 0px;
+    width: 200px;
+
+    @media (max-width: 800px) {
+      width: 90%;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-form {
+    padding: 20px;
+
+    &-field {
+      padding-top: 20px;
+
+      input {
+        width: 90%;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+    }
+  }
 }
