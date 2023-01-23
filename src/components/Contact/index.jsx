@@ -22,7 +22,7 @@ const Contact = () => {
         Something needs to be clarified? 
         If you have any question or if you want to leave a comment, do it here and we will receive it via e-mail. Thanks for your message!
         <div className="contact-form-field">
-          <textarea rows="10" cols="20" id="form" />
+          <textarea rows="10" cols="30" id="form" />
         </div>
         <button onClick={submitForm} className="contact-submit">Submit</button>
       </div>

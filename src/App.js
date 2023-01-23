@@ -33,6 +33,7 @@ const App = () => {
     // remove the loading screen
     setTimeout(() => {
       setLoading(false);
+      window.scrollTo(0, 0);
     }, 3000);
   };
 
