@@ -1,11 +1,11 @@
 const PAGES = {
   HOME: 'Home',
-  STORY: 'Our Story',
-  DAY: 'On The Day',
+  STORY: 'Our story',
+  DAY: 'On the day',
   ACCOMMODATION: 'Accommodation',
   RSVP: 'RSVP',
   QUIZ: 'Quiz',
-  CONTACT: 'Contact Us',
+  CONTACT: 'Contact us',
 };
 
 export default PAGES;
