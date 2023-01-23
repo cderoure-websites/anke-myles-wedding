@@ -9,7 +9,6 @@
   flex-direction: column;
   font-family: $bodyFont;
   justify-content: center;
-  padding-bottom: 10px;
   padding-top: 50px;
   
   @media (max-width: 800px) {
@@ -26,7 +25,7 @@
 
   &-title {
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 40px;
     font-family: $headingFont;
     margin-top: -70px;
     z-index: 1;
@@ -48,6 +47,7 @@
   &-mobile {
     display: none;
     background-color: white;
+    padding-top: 10px;
 
     @media (max-width: 800px) {
       display: flex;
@@ -67,13 +67,13 @@
       @media (max-width: 800px) {
         align-items: center;
         font-family: $headingFont;
-        font-size: 20px;
         color: $fontColor;
         background: none;
         border: none;
         display: flex;
         flex-direction: row;
-        font-size: 20px;
+        font-size: 24px;
+        line-height: 28px;
         justify-content: space-between;
         margin: 0px;
         padding-top: 5px;
@@ -86,7 +86,7 @@
   
   li {
     list-style-type: none;
-    padding: 0px 20px;
+    padding: 0px 5px;
     
     @media (max-width: 800px) {
       width: 100%;
@@ -120,9 +120,10 @@
     border: none;
     background: none;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     font-size: $buttonFontSize;
     font-family: $headingFont;
+    line-height: 26px;
 
     @media (max-width: 800px) {
       width: 100%;

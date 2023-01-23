@@ -3,7 +3,7 @@
 
 .welcome {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-start;
 
@@ -50,7 +50,7 @@
     color: $secondaryColor;
     font-size: 24px;
     padding-bottom: 20px;
-    padding-top: 80px;
+    padding-top: 150px;
 
     @media (max-width: 800px) {
       padding-top: 0px;
@@ -60,7 +60,6 @@
   &-date {
     text-transform: uppercase;
     font-size: $headingFontSize;
-    font-family: $headingFont;
     padding-bottom: 20px;
   
     @media (max-width: 800px) {

@@ -54,7 +54,7 @@
 
     &-name {
       font-family: $headingFont;
-      font-size: 80px;
+      font-size: 50px;
       font-weight: bold;
       text-transform: uppercase;
 
@@ -81,7 +81,7 @@
     color: $primaryColor;
     
     @media (max-width: 800px) {
-      font-size: 20px;
+      font-size: 24px;
       padding: 20px;
     }
   }
@@ -137,7 +137,7 @@
     font-size: $buttonFontSize;
     margin-top: 20px;
     min-width: 200px;
-    padding: 5px 10px;
+    padding: 5px 10px 0px;
     font-family: $headingFont;
     font-weight: normal;
     text-transform: uppercase;

@@ -13,10 +13,10 @@ const Contact = () => {
         Contact Us
       </div>
       <div className="contact-body">
-        <b>Anke contact:</b> TBC
+        <b>Anke:</b> +44 XXXXXXXXXX
       </div>
       <div className="contact-body">
-        <b>Myles contact:</b> TBC
+        <b>Myles:</b> +44 XXXXXXXXXX
       </div>
       <div className="contact-form">
         Something needs to be clarified? 

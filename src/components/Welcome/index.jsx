@@ -33,7 +33,7 @@ const Welcome = ({ onClickRSVP }) => {
         </div>
 
         <div className="welcome-date">
-          · 19th August 2023 ·
+          19th August 2023
         </div>
         
         <button className="welcome-rsvp" onClick={onClickRSVP}>
