@@ -5,6 +5,12 @@
   padding: 20px;
   padding-top: 40px;
 
+  &-title {
+    font-size: $headingFontSize;
+    font-family: $headingFont;
+    font-weight: bold;
+  }
+
   &-option {
     padding: 10px;
 

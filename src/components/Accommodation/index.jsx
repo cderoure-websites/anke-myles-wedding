@@ -36,7 +36,7 @@ const Accommodation = () => {
         return (
           <div className="accommodation-option">
             <div className="accommodation-option-price">{price}</div>
-            <a href={link} target="_blank">{name}</a>
+            <a href={link} rel="noreferrer" target="_blank">{name}</a>
             <div>{address}</div>
           </div>
         );

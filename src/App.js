@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 
 import PAGES from './constants/pages.js'
 
-import './App.css';
+import './app.scss';
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -53,7 +53,7 @@ const App = () => {
 
         {loading && (
           <div className="app-loading">
-            <div>M&A</div>
+            <div>M&A · 19.08.23</div>
             <div class="lds-heart"><div></div></div>
           </div>
         )}

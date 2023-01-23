@@ -6,7 +6,7 @@
 
   h1 {
     font-family: $headingFont;
-    font-size: 40px;
+    font-size: $headingFontSize;
   }
 
   &-key-info {

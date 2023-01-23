@@ -12,12 +12,12 @@ import './index.scss';
 const Images = () => {
   return (
     <div className="images">
-      <img src={ENGAGEMENT_RING} />
-      <img src={FAMILY_CHRISTMAS} />
-      <img src={FAMILY_HAPPY} />
-      <img src={SYDNEY} />
-      <img src={VACATION_HEART} />
-      <img src={VACATION_POOL} />
+      <img alt="engagement" src={ENGAGEMENT_RING} />
+      <img alt="family" src={FAMILY_CHRISTMAS} />
+      <img alt="happy" src={FAMILY_HAPPY} />
+      <img alt="sydney" src={SYDNEY} />
+      <img alt="heart" src={VACATION_HEART} />
+      <img alt="pool" src={VACATION_POOL} />
     </div>
   )
 };

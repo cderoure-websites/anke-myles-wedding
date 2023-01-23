@@ -43,16 +43,16 @@
 
 .welcome-title {
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: $headingFontSize;
   font-family: $headingFont;
 
   @media (max-width: 800px) {
-    font-size: 40px;
+    font-size: $headingFontSize;
   }
 }
 
 .welcome-signature {
-  font-size: 40px;
+  font-size: $headingFontSize;
   text-transform: uppercase;
   font-family: $headingFont;
   padding-bottom: 40px;
@@ -63,7 +63,7 @@
 
 .welcome-content {
   padding-top: 20px;
-  max-width: 100%;
+  max-width: 400px;
   line-height: 24px;
   padding-bottom: 20px;
 
