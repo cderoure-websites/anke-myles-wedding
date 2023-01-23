@@ -1,3 +1,6 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
 .login {
   align-items: center;
   background-size: cover;
@@ -6,7 +9,7 @@
   background-image: url('../../images/flowers-crop-left.jpg'), url('../../images/flowers-crop-right.jpg');
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
-  color: #295f56;
+  color: $primaryColor;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -16,7 +19,7 @@
   text-align: center;
   top: 0;
   width: 100%;
-  background-color: rgb(253 253 253);
+  background-color: $backgroundColor;
   padding-bottom: 50px;
 
   @media (max-width: 800px) {
@@ -50,7 +53,7 @@
     }
 
     &-name {
-      font-family: 'Explora', cursive;
+      font-family: $headingFont;
       font-size: 80px;
       font-weight: bold;
       text-transform: uppercase;
@@ -61,8 +64,8 @@
     }
   
     &-and {
-      color: #ccc;
-      font-family: 'Explora', cursive;
+      color: $fontColorMuted;
+      font-family: $headingFont;
       font-size: 40px;
       padding: 0px;
       
@@ -74,8 +77,8 @@
 
   &-content {
     font-size: 44px;
-    font-family: 'Explora', cursive;
-    color: #295f56;
+    font-family: $headingFont;
+    color: $primaryColor;
     
     @media (max-width: 800px) {
       font-size: 20px;
@@ -109,25 +112,25 @@
       text-align: center;
       width: 400px;
       background-color: white;
-      color: #295f56;
+      color: $primaryColor;
       border-radius: 20px;
-      border: 1px solid #295f56;
+      border: 1px solid $primaryColor;
       font-weight: 100;
-      font-family: 'Raleway', sans-serif;
+      font-family: $bodyFont;
 
       @media (max-width: 800px) {
         font-size: 24px;
       }
 
       &::placeholder {
-        color: #295f56;
+        color: $primaryColor;
         font-weight: 100;
       }
     }
   }
 
   button {
-    background: #295f56;
+    background: $primaryColor;
     border-radius: 20px;
     border: none;
     color: white;
@@ -135,7 +138,7 @@
     margin-top: 20px;
     min-width: 200px;
     padding: 5px 10px;
-    font-family: 'Explora', cursive;
+    font-family: $headingFont;
     font-weight: normal;
     text-transform: uppercase;
     outline: none;

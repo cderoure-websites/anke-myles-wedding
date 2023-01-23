@@ -1,3 +1,6 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
 .rsvp {
   display: flex;
   flex-direction: column;
@@ -9,7 +12,7 @@
 
   h1 {
     font-size: 40px;
-    font-family: 'Explora', cursive;
+    font-family: $headingFont;
   }
 
   &-form {
@@ -22,7 +25,7 @@
     }
 
     h1 {
-      border-bottom: 1px solid #2d2d2d;
+      border-bottom: 1px solid $borderColor;
     }
 
     @media (max-width: 800px) {
@@ -60,8 +63,8 @@
 
     &-submit {
       border-radius: 20px;
-      border: 2px solid #b91328;
-      color: #b91328;
+      border: 2px solid $secondaryColor;
+      color: $secondaryColor;
       background: none;
       padding: 10px;
       margin: 0px;

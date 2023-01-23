@@ -1,3 +1,6 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
 .story {
   display: flex;
   flex-direction: column;
@@ -9,7 +12,7 @@
 
   h1 {
     font-size: 40px;
-    font-family: 'Explora', cursive;
+    font-family: $headingFont;
   }
 
   ul {
@@ -32,8 +35,8 @@
   }
 
   &-title {
-    font-family: 'Explora', cursive;
+    font-family: $headingFont;
     font-size: 36px;
-    color: #295f56;
+    color: $primaryColor;
   }
 }

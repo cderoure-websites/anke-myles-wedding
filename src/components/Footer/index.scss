@@ -1,9 +1,12 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
 .footer {
   width: 100%;
   max-width: 100%;
   display: flex;
   justify-content: center;
-  color: #ccc;
+  color: $fontColorMuted;
   font-size: 24px;
   padding-top: 50px;
 }
@@ -19,13 +22,13 @@
 }
 
 .footer-initials {
-  color: #ccc;
+  color: $fontColorMuted;
   padding: 10px;
-  font-family: 'Explora', cursive;
+  font-family: $headingFont;
 }
 
 .footer-date {
-  color: #ccc;
+  color: $fontColorMuted;
   padding: 10px;
   font-weight: 100;
 }

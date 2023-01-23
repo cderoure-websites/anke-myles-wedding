@@ -1,3 +1,6 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/fonts.scss';
+
 .accommodation {
   padding: 20px;
   padding-top: 40px;
@@ -8,11 +11,11 @@
     &-price {
       font-size: 28px;
       padding: 10px 0px;
-      font-family: 'Explora', cursive;
+      font-family: $headingFont;
     }
 
     a {
-      color: #2d2d2d;
+      color: $fontColor;
       text-decoration: none;
       font-weight: bold;
       font-size: 20px;

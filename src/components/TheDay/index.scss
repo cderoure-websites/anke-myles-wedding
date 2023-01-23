@@ -1,9 +1,11 @@
+@import 'src/styles/fonts.scss';
+
 .the-day {
   padding: 0px 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: $bodyFont;
 
   h1 {
-    font-family: 'Explora', cursive;
+    font-family: $headingFont;
     font-size: 40px;
   }
 
