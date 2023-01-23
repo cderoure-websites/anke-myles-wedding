@@ -34,7 +34,7 @@ const App = () => {
     setTimeout(() => {
       setLoading(false);
       window.scrollTo(0, 0);
-    }, 3000);
+    }, 2000);
   };
 
   const handleUnsuccessfulLogin = () => {

@@ -4,7 +4,7 @@
 .welcome {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
 
   @media (max-width: 800px) {
@@ -73,6 +73,7 @@
   text-transform: uppercase;
   font-family: $headingFont;
   padding-bottom: 40px;
+  color: $primaryColor;
   
   transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg);
