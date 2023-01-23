@@ -1,0 +1,75 @@
+.rsvp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 800px) {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: 'Explora', cursive;
+  }
+
+  &-form {
+    padding-top: 40px;
+    width: 500px;
+    text-align: left;
+
+    @media (max-width: 800px) {
+      padding-top: 0px;
+    }
+
+    h1 {
+      border-bottom: 1px solid #2d2d2d;
+    }
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+
+    &-info {
+      padding-bottom: 10px;
+    }
+
+    &-field {
+      text-align: left;
+      padding-bottom: 20px;
+
+      &-text-box {
+        width: 500px;
+
+        @media (max-width: 800px) {
+          width: 90%;
+        }
+
+        input {
+          width: 100%;
+          padding: 10px;
+          font-size: 24px;
+        }
+  
+        label {
+          display: flex;
+          font-weight: bold;
+          padding-bottom: 5px;
+        }
+      }
+    }
+
+    &-submit {
+      border-radius: 20px;
+      border: 2px solid #b91328;
+      color: #b91328;
+      background: none;
+      padding: 10px;
+      margin: 0px;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  } 
+}

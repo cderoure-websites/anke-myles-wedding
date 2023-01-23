@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ccc;
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+.footer-body {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.footer-initials {
+  color: #ccc;
+  padding: 10px;
+  font-family: 'Explora', cursive;
+}
+
+.footer-date {
+  color: #ccc;
+  padding: 10px;
+  font-weight: 100;
+}

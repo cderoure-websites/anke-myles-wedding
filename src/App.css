@@ -1,0 +1,18 @@
+.app {
+  text-align: center;
+  color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-size: 20%;
+  background-attachment: fixed;
+  background-image: url('./images/flowers-crop-left.jpg'), url('./images/flowers-crop-right.jpg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  min-height: 100vh;
+}
+
+.app-content {
+  max-width: 800px;
+}

@@ -1,0 +1,25 @@
+.accommodation {
+  padding: 20px;
+  padding-top: 40px;
+
+  &-option {
+    padding: 10px;
+
+    &-price {
+      font-size: 28px;
+      padding: 10px 0px;
+      font-family: 'Explora', cursive;
+    }
+
+    a {
+      color: #2d2d2d;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+.login {
+  align-items: center;
+  background-size: cover;
+  background-size: 20%;
+  background-attachment: fixed;
+  background-image: url('../../images/flowers-crop-left.jpg'), url('../../images/flowers-crop-right.jpg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  color: #295f56;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  background-color: rgb(253 253 253);
+  padding-bottom: 50px;
+
+  @media (max-width: 800px) {
+    background-size: 45%;
+    padding-bottom: 0px;
+  }
+
+  &-introduction {
+    max-width: 800px;
+    padding-top: 100px;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 100;
+
+    @media (max-width: 800px) {
+      font-size: 24px;
+      padding: 20px;
+    }
+
+    &-couple {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+    
+      @media (max-width: 800px) {
+        flex-direction: column;
+        max-width: 300px;
+      }
+    }
+
+    &-name {
+      font-family: 'Explora', cursive;
+      font-size: 80px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      @media (max-width: 800px) {
+        font-size: 50px;
+      }
+    }
+  
+    &-and {
+      color: #ccc;
+      font-family: 'Explora', cursive;
+      font-size: 40px;
+      padding: 0px;
+      
+      @media (max-width: 800px) {
+        padding: 0px;
+      }
+    }
+  }
+
+  &-content {
+    color: #ccc;
+    font-size: 24px;
+    
+    @media (max-width: 800px) {
+      font-size: 20px;
+      padding: 20px;
+    }
+  }
+
+  &-email {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 20px;
+    width: 500px;
+
+    @media (max-width: 800px) {
+      width: 90%;
+    }
+  }
+
+  label {
+    font-size: 30px;
+  }
+
+  &-email {
+    input {
+      font-size: 30px;
+      margin-top: 20px;
+      max-width: 90%;
+      padding: 10px;
+      text-align: center;
+      width: 400px;
+      background-color: white;
+      color: #295f56;
+      border-radius: 20px;
+      border: 1px solid #295f56;
+      font-weight: 100;
+      font-family: 'Raleway', sans-serif;
+
+      @media (max-width: 800px) {
+        font-size: 24px;
+      }
+
+      &::placeholder {
+        color: #295f56;
+        font-weight: 100;
+      }
+    }
+  }
+
+  button {
+    background: #295f56;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    min-width: 200px;
+    padding: 5px 10px;
+    font-family: 'Explora', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+    outline: none;
+    
+    @media (max-width: 800px) {
+      font-size: 24px;
+      margin-top: 0px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

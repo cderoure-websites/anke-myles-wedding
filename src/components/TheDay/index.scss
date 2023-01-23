@@ -1,0 +1,15 @@
+.the-day {
+  padding: 0px 20px;
+  font-family: 'Raleway', sans-serif;
+
+  h1 {
+    font-family: 'Explora', cursive;
+    font-size: 40px;
+  }
+
+  &-key-info {
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
