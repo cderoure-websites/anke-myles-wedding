@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anke-myles-wedding/static/css/main.5a294d4d.css",
-    "main.js": "/anke-myles-wedding/static/js/main.7be90831.js",
+    "main.css": "/anke-myles-wedding/static/css/main.d13946e0.css",
+    "main.js": "/anke-myles-wedding/static/js/main.8d9cf23d.js",
     "static/js/787.7cbe4b7b.chunk.js": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js",
     "static/media/family-christmas.jpeg": "/anke-myles-wedding/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
     "static/media/family-happy.jpeg": "/anke-myles-wedding/static/media/family-happy.cf1c6330b6dfe46c6576.jpeg",
@@ -13,12 +13,12 @@
     "static/media/sydney-bridge.jpeg": "/anke-myles-wedding/static/media/sydney-bridge.2306531ad01026fe7dd4.jpeg",
     "static/media/flowers-crop-right.jpg": "/anke-myles-wedding/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
     "index.html": "/anke-myles-wedding/index.html",
-    "main.5a294d4d.css.map": "/anke-myles-wedding/static/css/main.5a294d4d.css.map",
-    "main.7be90831.js.map": "/anke-myles-wedding/static/js/main.7be90831.js.map",
+    "main.d13946e0.css.map": "/anke-myles-wedding/static/css/main.d13946e0.css.map",
+    "main.8d9cf23d.js.map": "/anke-myles-wedding/static/js/main.8d9cf23d.js.map",
     "787.7cbe4b7b.chunk.js.map": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a294d4d.css",
-    "static/js/main.7be90831.js"
+    "static/css/main.d13946e0.css",
+    "static/js/main.8d9cf23d.js"
   ]
 }
