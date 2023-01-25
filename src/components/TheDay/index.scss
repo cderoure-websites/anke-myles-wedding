@@ -9,6 +9,13 @@
     font-size: $headingFontSize;
   }
 
+  &-date {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: $headingFontSize;
+  }
+
   &-key-info {
     padding-bottom: 20px;
     font-weight: bolder;

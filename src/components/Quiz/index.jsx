@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from '../Button';
+
 import './index.scss';
 
 const Quiz = () => {
@@ -77,7 +79,7 @@ const Quiz = () => {
           <input id="" value=""/>
         </div>
       </div>
-      <button onClick={submitQuiz} className="quiz-submit">Submit</button>
+      <Button onClick={submitQuiz} text="Submit" />
     </div>
   )
 };

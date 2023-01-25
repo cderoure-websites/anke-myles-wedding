@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from '../Button';
+
 import './index.scss';
 
 const calculateDaysToGo = () => {
@@ -35,10 +37,8 @@ const Welcome = ({ onClickRSVP }) => {
         <div className="welcome-date">
           19th August 2023
         </div>
-        
-        <button className="welcome-rsvp" onClick={onClickRSVP}>
-          RSVP
-        </button>
+
+        <Button onClick={onClickRSVP} text="RSVP"/>
         
         <div className="welcome-rsvp-warning">
           Please RSVP by 19/03/2023

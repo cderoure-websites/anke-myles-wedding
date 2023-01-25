@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import Button from '../Button';
+
 import './index.scss';
 
 const RSVP = () => {
@@ -71,7 +73,7 @@ const RSVP = () => {
             </>
           )}
         </div>
-        <button onClick={submitForm} className="rsvp-form-submit">RSVP</button>
+        <Button onClick={submitForm} text="RSVP" />
       </div>
     </div>
   )

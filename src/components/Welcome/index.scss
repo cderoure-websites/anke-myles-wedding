@@ -24,22 +24,6 @@
   }
 
   &-rsvp {
-    border-radius: 20px;
-    border: 2px solid $secondaryColor;
-    color: $secondaryColor;
-    background: none;
-    padding: 10px;
-    margin: 0px;
-    width: 200px;
-
-    @media (max-width: 800px) {
-      width: 200px;
-    }
-
-    &:hover {
-      cursor: pointer;
-    }
-
     &-warning {
       padding-top: 10px;
       font-size: 12px;

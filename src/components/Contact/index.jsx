@@ -23,7 +23,7 @@ const FAQ = () => {
       </div>
       <div className="faq-section">
         <div className="faq-section-question">
-          I want to get you a gift. What can I get you?
+          Do you have a gift registry?
         </div>
         <div className="faq-section-answer">
           The most important gift to us is to have you share our special day, but if you wish to contribute in some other way, we would love a few pennies to put in our pot, for our honeymoon trip after tying the knot.

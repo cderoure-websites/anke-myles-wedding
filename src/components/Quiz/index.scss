@@ -9,24 +9,6 @@
     font-size: $headingFontSize;
   }
 
-  &-submit {
-    border-radius: 20px;
-    border: 2px solid $secondaryColor;
-    color: $secondaryColor;
-    background: none;
-    padding: 10px;
-    margin: 0px;
-    width: 200px;
-
-    @media (max-width: 800px) {
-      width: 90%;
-    }
-
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
   &-form {
     padding: 20px;
 

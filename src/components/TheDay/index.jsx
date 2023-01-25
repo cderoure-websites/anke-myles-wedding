@@ -5,6 +5,9 @@ import './index.scss';
 const TheDay = () => {
   return (
     <div className="the-day">
+      <div className="the-day-date">
+        19th August 2023
+      </div>
       <div>
         <h1>Reception</h1>
         <div>

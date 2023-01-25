@@ -63,23 +63,5 @@
         }
       }
     }
-
-    &-submit {
-      border-radius: 20px;
-      border: 2px solid $secondaryColor;
-      color: $secondaryColor;
-      background: none;
-      padding: 10px;
-      margin: 0px;
-      width: 100%;
-
-      @media (max-width: 800px) {
-        width: 200px;
-      }
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
   } 
 }
