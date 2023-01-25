@@ -63,7 +63,10 @@ const RSVP = () => {
               </div>
               <h1>Meals</h1>
               <div className="rsvp-form-field">
-                MEALS: TBC
+                <div className="rsvp-form-field rsvp-form-field-text-box">
+                  <label for="meals">Please let us know if you have any dietary restrictions:</label>
+                  <input type="text" id="meals" name="meals" value=""/>
+                </div>
               </div>
             </>
           )}

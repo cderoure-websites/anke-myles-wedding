@@ -16,9 +16,12 @@
   }
 
   &-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     padding-top: 40px;
-    width: 500px;
     text-align: left;
+    width: 500px;
 
     @media (max-width: 800px) {
       padding-top: 0px;
@@ -69,6 +72,10 @@
       padding: 10px;
       margin: 0px;
       width: 100%;
+
+      @media (max-width: 800px) {
+        width: 200px;
+      }
 
       &:hover {
         cursor: pointer;

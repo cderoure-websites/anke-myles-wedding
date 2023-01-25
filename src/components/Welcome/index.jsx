@@ -41,7 +41,7 @@ const Welcome = ({ onClickRSVP }) => {
         </button>
         
         <div className="welcome-rsvp-warning">
-          Please RSVP by XX/XX/2023
+          Please RSVP by 19/03/2023
         </div>
       </div>
       

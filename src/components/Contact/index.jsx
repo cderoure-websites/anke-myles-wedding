@@ -2,33 +2,35 @@ import React from 'react';
 
 import './index.scss';
 
-const Contact = () => {
-  const submitForm = () => {
-    // TODO
-  };
-  
+const FAQ = () => {
   return (
-    <div className="contact">
-      <div className="contact-title">
-        Contact Us
+    <div className="faq">
+      <div className="faq-title">
+        FAQ
       </div>
-      <div className="contact-body">
-        <b>Anke:</b> +44 XXXXXXXXXX
-      </div>
-      <div className="contact-body">
-        <b>Myles:</b> +44 XXXXXXXXXX
-      </div>
-      <div className="contact-form">
-        Something needs to be clarified? 
-        If you have any question or if you want to leave a comment, do it here and we will receive it via e-mail. Thanks for your message!
-        <div className="contact-form-field">
-          <textarea rows="10" cols="30" id="form" />
+      <div className="faq-section">
+      <div className="faq-section-question">
+          I have a question. Who do I reach out to?
         </div>
-        <button onClick={submitForm} className="contact-submit">Submit</button>
+        <div className="faq-section-answer">
+          <div>
+            <b>Email:</b> <a href="mailto:verlanderma@gmail.com">verlanderma@gmail.com</a>
+          </div>
+          <div>
+            <b>Phone:</b> +44 7597 305593
+          </div>
+        </div>
       </div>
-
+      <div className="faq-section">
+        <div className="faq-section-question">
+          I want to get you a gift. What can I get you?
+        </div>
+        <div className="faq-section-answer">
+          The most important gift to us is to have you share our special day, but if you wish to contribute in some other way, we would love a few pennies to put in our pot, for our honeymoon trip after tying the knot.
+        </div>
+      </div>
     </div>
   )
 };
 
-export default Contact;
+export default FAQ;

@@ -5,7 +5,7 @@ const PAGES = {
   ACCOMMODATION: 'Accommodation',
   RSVP: 'RSVP',
   QUIZ: 'Quiz',
-  CONTACT: 'Contact us',
+  CONTACT: 'FAQ',
 };
 
 export default PAGES;

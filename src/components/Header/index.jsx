@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import PAGES from '../../constants/pages.js'
 import IMAGE from '../../images/proposal-crop.jpeg';
+import MENU from '../../images/grid.png';
 
 import './index.scss';
 
@@ -29,7 +30,9 @@ const Header = ({ selectedTab, changeTab, loggedIn }) => {
           <div className="header-mobile">
             <button onClick={toggleMenu}>
               <div className="header-mobile-title">{selectedTab}</div>
-              <span className="header-mobile-icon">{showMenu ? '^' : '...'}</span>
+              <span className="header-mobile-icon">
+                <img src={MENU} alt="menu" />
+              </span>
             </button>
           </div>
           
