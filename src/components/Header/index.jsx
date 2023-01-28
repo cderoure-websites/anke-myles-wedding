@@ -38,15 +38,19 @@ const Header = ({ selectedTab, changeTab, loggedIn }) => {
           
           <div className="header-menu">
             <ul className={showMenu ? 'show' : 'hide'}>
-              {Object.values(PAGES).map(page => {
+              {Object.values(PAGES).map((page, index) => {
                 return (
-                  <li>
-                    <button
-                      className={`header-menu-item ${page === selectedTab ? 'header-menu-item-active' : ''}`} 
-                      onClick={() => onSelectTab(page)}>
-                        {page}
-                    </button>
-                  </li>
+                  <>
+                    {!index && <span className="header-menu-item-divider">·</span>}
+                    <li>
+                      <button
+                        className={`header-menu-item ${page === selectedTab ? 'header-menu-item-active' : ''}`} 
+                        onClick={() => onSelectTab(page)}>
+                          {page}
+                      </button>
+                    </li>
+                    <span className="header-menu-item-divider">·</span>
+                  </>
                 );
               })}
             </ul>

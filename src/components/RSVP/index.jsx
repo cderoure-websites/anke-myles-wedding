@@ -42,6 +42,22 @@ const RSVP = () => {
           </div>
           {attending && (
             <>
+              <h1>Arrival</h1>
+              <div className="rsvp-form-info">
+                <b>Please check your invitation as to which time you are requested to arrive:</b>
+              </div>
+              <div className="rsvp-form-field">
+                <input type="checkbox" id="invitation-ceremony" name="invitation" value="ceremony"/>
+                <label for="invitation-ceremony">Ceremony</label>
+              </div>
+              <div className="rsvp-form-field">
+                <input type="checkbox" id="invitation-reception" name="invitation" value="reception"/>
+                <label for="invitation-reception">Reception</label>
+              </div>
+              <div className="rsvp-form-field">
+                <input type="checkbox" id="invitation-evening" name="invitation" value="evening"/>
+                <label for="invitation-evening">Evening</label>
+              </div>
               <h1>Music</h1>
               <div className="rsvp-form-field rsvp-form-field-text-box">
                 <label for="music">Please let us know if you have any songs you would like us to play as we celebrate this special day:</label>

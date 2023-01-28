@@ -1,8 +1,13 @@
 import React from 'react';
 
+import Button from '../Button';
 import './index.scss';
 
 const FAQ = () => {
+  const openRegistry = () => {
+    window.open('https://prezola.com/wishlists/10272146/');
+  };
+
   return (
     <div className="faq">
       <div className="faq-title">
@@ -28,6 +33,7 @@ const FAQ = () => {
         <div className="faq-section-answer">
           The most important gift to us is to have you share our special day, but if you wish to contribute in some other way, we would love a few pennies to put in our pot, for our honeymoon trip after tying the knot.
         </div>
+        <Button onClick={openRegistry} text="OPEN REGISTRY" />
       </div>
     </div>
   )

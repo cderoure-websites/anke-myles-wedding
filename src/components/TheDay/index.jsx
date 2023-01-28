@@ -9,16 +9,16 @@ const TheDay = () => {
         19th August 2023
       </div>
       <div>
-        <h1>Reception</h1>
+        <h1>Ceremony</h1>
         <div>
           <div className="the-day-key-info">13:30 - 14:15</div>
           <div className="the-day-key-info">The Mansion, 70 Church St, Leatherhead KT22 8DP</div>
-          <p>Please arrive ahead of 13:30 to be seated, with the ceremony and celebrations starting at 13:30.</p>
+          <p>Please arrive no later than 13:00 to be seated ahead of the Bride and Groom's arrival, with the ceremony and celebrations starting at 13:30.</p>
           <p>Parking is available on site, however is limited so would recommend arriving by horse/carriage.</p>
         </div>
       </div>
       <div>
-        <h1>Ceremony</h1>
+        <h1>Reception</h1>
         <div>
           <div className="the-day-key-info">15:00 - 00:00</div>
           <div className="the-day-key-info">Tyrrells Wood, Leatherhead KT22 8QP</div>
