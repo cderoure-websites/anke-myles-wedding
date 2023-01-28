@@ -3,6 +3,10 @@
 
 .quiz {
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   &-title {
     font-family: $headingFont;
@@ -11,15 +15,19 @@
 
   &-form {
     padding: 20px;
+    text-align: left;
 
     &-field {
       padding-top: 20px;
+      max-width: 600px;
 
-      input {
-        width: 90%;
-        padding: 10px;
-        margin-top: 10px;
-        font-size: 24px;
+      &-label {
+        font-weight: bold;
+      }
+
+      &-options {
+        padding-top: 20px;
+        text-align: left;
       }
     }
   }
