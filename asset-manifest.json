@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/anke-myles-wedding/static/css/main.b7504148.css",
-    "main.js": "/anke-myles-wedding/static/js/main.72201f5e.js",
+    "main.css": "/anke-myles-wedding/static/css/main.e405db9e.css",
+    "main.js": "/anke-myles-wedding/static/js/main.73c11f94.js",
     "static/js/787.7cbe4b7b.chunk.js": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js",
     "static/media/family-christmas.jpeg": "/anke-myles-wedding/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
-    "static/media/family-happy.jpeg": "/anke-myles-wedding/static/media/family-happy.cf1c6330b6dfe46c6576.jpeg",
+    "static/media/family-happy.jpg": "/anke-myles-wedding/static/media/family-happy.cc20ac57e13b35016d20.jpg",
     "static/media/vacation-pool.jpeg": "/anke-myles-wedding/static/media/vacation-pool.2ee01d1d6575854a6e15.jpeg",
     "static/media/proposal-crop.jpeg": "/anke-myles-wedding/static/media/proposal-crop.fae22ec3ce6a16d3b049.jpeg",
     "static/media/engagement-ring.jpeg": "/anke-myles-wedding/static/media/engagement-ring.a14b410c02eafb73da28.jpeg",
     "static/media/flowers-crop-left.jpg": "/anke-myles-wedding/static/media/flowers-crop-left.30da7ccbbc067ce26dff.jpg",
     "static/media/vacation-heart.jpeg": "/anke-myles-wedding/static/media/vacation-heart.a8b72b003c05dcba0d32.jpeg",
-    "static/media/sydney-bridge.jpeg": "/anke-myles-wedding/static/media/sydney-bridge.2306531ad01026fe7dd4.jpeg",
     "static/media/flowers-crop-right.jpg": "/anke-myles-wedding/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
+    "static/media/first-met.jpg": "/anke-myles-wedding/static/media/first-met.f7ac4da8a397f59c8d34.jpg",
+    "static/media/ma-heart.png": "/anke-myles-wedding/static/media/ma-heart.d2d46ee0dd7849bd6bf8.png",
     "index.html": "/anke-myles-wedding/index.html",
-    "main.b7504148.css.map": "/anke-myles-wedding/static/css/main.b7504148.css.map",
-    "main.72201f5e.js.map": "/anke-myles-wedding/static/js/main.72201f5e.js.map",
+    "main.e405db9e.css.map": "/anke-myles-wedding/static/css/main.e405db9e.css.map",
+    "main.73c11f94.js.map": "/anke-myles-wedding/static/js/main.73c11f94.js.map",
     "787.7cbe4b7b.chunk.js.map": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7504148.css",
-    "static/js/main.72201f5e.js"
+    "static/css/main.e405db9e.css",
+    "static/js/main.73c11f94.js"
   ]
 }
