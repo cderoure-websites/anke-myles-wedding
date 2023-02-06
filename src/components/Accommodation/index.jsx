@@ -34,7 +34,7 @@ const Accommodation = () => {
     <div className="accommodation">
       {Object.values(OPTIONS).map(({ link, name, price, address }) => {
         return (
-          <div className="accommodation-option">
+          <div key={name} className="accommodation-option">
             <div className="accommodation-option-price">{price}</div>
             <a href={link} rel="noreferrer" target="_blank">{name}</a>
             <div>{address}</div>

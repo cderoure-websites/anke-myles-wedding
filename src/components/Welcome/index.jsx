@@ -1,5 +1,6 @@
 import React from 'react';
 
+import HEART from '../../images/ma-heart.png';
 import Button from '../Button';
 
 import './index.scss';
@@ -30,6 +31,7 @@ const Welcome = ({ onClickRSVP }) => {
       </div>
 
       <div className="welcome-rhs">
+        <img className="welcome-image" src={HEART} alt="heart" />
         <div className="welcome-countdown">
           {calculateDaysToGo()} days to go!
         </div>
@@ -41,7 +43,7 @@ const Welcome = ({ onClickRSVP }) => {
         <Button onClick={onClickRSVP} text="RSVP"/>
         
         <div className="welcome-rsvp-warning">
-          Please RSVP by 19/03/2023
+          Please RSVP by 31/03/2023
         </div>
       </div>
       

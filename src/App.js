@@ -55,7 +55,7 @@ const App = () => {
         {loading && (
           <div className="app-loading">
             <div>M&A · 19.08.23</div>
-            <div class="lds-heart"><div></div></div>
+            <div className="lds-heart"><div></div></div>
           </div>
         )}
 

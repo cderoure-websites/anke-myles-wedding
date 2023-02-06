@@ -28,6 +28,14 @@ const FAQ = () => {
       </div>
       <div className="faq-section">
         <div className="faq-section-question">
+          What is the dress code?
+        </div>
+        <div className="faq-section-answer">
+          Formal attire is requested.
+        </div>
+      </div>
+      <div className="faq-section">
+        <div className="faq-section-question">
           Do you have a gift registry?
         </div>
         <div className="faq-section-answer">
