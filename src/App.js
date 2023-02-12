@@ -9,7 +9,7 @@ import TheDay from './components/TheDay';
 import Accommodation from './components/Accommodation';
 import RSVP from './components/RSVP';
 import Quiz from './components/Quiz';
-import Contact from './components/Contact';
+import FAQ from './components/FAQ';
 
 import PAGES from './constants/pages.js'
 
@@ -69,7 +69,7 @@ const App = () => {
             {tab === PAGES.ACCOMMODATION && <Accommodation />}
             {tab === PAGES.RSVP && <RSVP />}
             {tab === PAGES.QUIZ && <Quiz />}
-            {tab === PAGES.CONTACT && <Contact />}
+            {tab === PAGES.FAQ && <FAQ />}
           </div>
           </>
         ) : (
