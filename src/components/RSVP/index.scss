@@ -10,6 +10,19 @@
     padding: 20px;
   }
 
+  &-success {
+    &-description {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &-error {
+    color: red;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   h1 {
     font-size: $headingFontSize;
     font-family: $headingFont;
