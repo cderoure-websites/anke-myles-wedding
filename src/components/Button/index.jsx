@@ -2,11 +2,11 @@ import React from 'react';
 
 import './index.scss';
 
-const Button = ({ text, onClick, loading }) => {
+const Button = ({ text, onClick, loading, type }) => {
   return loading ? (
     <div class="button-loading"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
   ) : (
-    <button className="button" onClick={onClick}>{text}</button>
+    <button type={type || "button"} className="button" onClick={onClick}>{text}</button>
   );
 };
 

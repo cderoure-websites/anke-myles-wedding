@@ -1,12 +1,38 @@
-import React from 'react';
+import React, { useState }  from 'react';
 
 import Button from '../Button';
 
 import './index.scss';
 
+const answers = {
+  1: 'A',
+  2: 'B',
+  3: 'B',
+  4: 'B',
+  5: 'C',
+  6: 'B',
+  7: 'A',
+  8: 'B',
+  9: 'B',
+  10: 'A',
+};
+
 const Quiz = () => {
-  const submitQuiz = () => {
-    // TODO
+  const [results, setResults] = useState('');
+  const submitQuiz = (e) => {
+    e.preventDefault()
+
+    const elements = e.target.elements;
+    let correct = 0;
+    Object.keys(elements).forEach(item => {
+      const { checked, name, id } = elements[item];
+      if (checked && answers[name] === id) {
+        correct = correct + 1;
+      };
+    });
+
+    setResults(`You got ${correct}/10 answers correct!`);
+    return false;
   };
 
   return (
@@ -17,7 +43,7 @@ const Quiz = () => {
       <div className="quix-description">
         Do you really think that you actually know everything about us?
       </div>
-      <div className="quiz-form">
+      <form onSubmit={submitQuiz} className="quiz-form">
         <div className="quiz-form-field">
           <label className="quiz-form-field-label">
             Which coastal town on the East Coast of Australia did we meet?
@@ -255,8 +281,10 @@ const Quiz = () => {
             </div>
           </div>
         </div>
-      </div>
-      <Button onClick={submitQuiz} text="Submit" />
+        <Button type="submit" text="Submit" />
+      </form>
+      
+      {results ? results : null}
     </div>
   )
 };
