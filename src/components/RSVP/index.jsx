@@ -9,6 +9,7 @@ const RSVP = () => {
   // states
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
   
   // sections
   const [attending, setAttending] = useState(false);
@@ -66,6 +67,7 @@ const RSVP = () => {
     // reset states:
     setSuccess(false);
     setError(false);
+    setLoading(true);
     
     // prep the data:
     const data = {
@@ -82,10 +84,12 @@ const RSVP = () => {
     fetch(FORM_URL, {
       method: 'POST',
       body: JSON.stringify(data),
-    }).then(async (response) => {
+    }).then(async (/*response*/) => {
       setSuccess(true);
-    }).catch((error) => {
+      setLoading(false);
+    }).catch((/*error*/) => {
       setError(true);
+      setLoading(false);
     });
   };
 
@@ -175,7 +179,7 @@ const RSVP = () => {
               Something has gone wrong. Please try again.
             </div>
           )}
-          <Button onClick={submitForm} text="RSVP" />
+          <Button loading={loading} onClick={submitForm} text="RSVP" />
         </div>
       )}
     </div>
