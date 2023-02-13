@@ -4,7 +4,7 @@ import './index.scss';
 
 const Button = ({ text, onClick, loading, type }) => {
   return loading ? (
-    <div class="button-loading">
+    <div className="button-loading">
       <div/>
       <div/>
       <div/>
