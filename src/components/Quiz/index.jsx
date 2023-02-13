@@ -118,7 +118,7 @@ const Quiz = () => {
           items={[
             {label: 'Over WhatsApp', id: '8A'},
             {label: 'Sent a letter with a return stamp', id: '8B'},
-            {label: 'Game of quiddler. Sge spelt out \'Will you be mine?\'', id: '8C'}, // correct answer
+            {label: 'Game of quiddler. She spelt out \'Will you be mine?\'', id: '8C'}, // correct answer
             {label: 'Through a riddle', id: '8D'},
           ]}
         />
