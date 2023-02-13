@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/anke-myles-wedding/static/css/main.e4d41f6c.css",
-    "main.js": "/anke-myles-wedding/static/js/main.1f8928ec.js",
-    "static/js/787.7cbe4b7b.chunk.js": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js",
-    "static/media/family-christmas.jpeg": "/anke-myles-wedding/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
-    "static/media/family-happy.jpg": "/anke-myles-wedding/static/media/family-happy.cc20ac57e13b35016d20.jpg",
-    "static/media/vacation-pool.jpeg": "/anke-myles-wedding/static/media/vacation-pool.2ee01d1d6575854a6e15.jpeg",
-    "static/media/proposal-crop.jpeg": "/anke-myles-wedding/static/media/proposal-crop.fae22ec3ce6a16d3b049.jpeg",
-    "static/media/engagement-ring.jpeg": "/anke-myles-wedding/static/media/engagement-ring.a14b410c02eafb73da28.jpeg",
-    "static/media/flowers-crop-left.jpg": "/anke-myles-wedding/static/media/flowers-crop-left.30da7ccbbc067ce26dff.jpg",
-    "static/media/vacation-heart.jpeg": "/anke-myles-wedding/static/media/vacation-heart.a8b72b003c05dcba0d32.jpeg",
-    "static/media/flowers-crop-right.jpg": "/anke-myles-wedding/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
-    "static/media/photos-qr-code.png": "/anke-myles-wedding/static/media/photos-qr-code.25aec7c2982c05427a39.png",
-    "static/media/first-met.jpg": "/anke-myles-wedding/static/media/first-met.f7ac4da8a397f59c8d34.jpg",
-    "static/media/ma-heart.png": "/anke-myles-wedding/static/media/ma-heart.d2d46ee0dd7849bd6bf8.png",
-    "index.html": "/anke-myles-wedding/index.html",
-    "main.e4d41f6c.css.map": "/anke-myles-wedding/static/css/main.e4d41f6c.css.map",
-    "main.1f8928ec.js.map": "/anke-myles-wedding/static/js/main.1f8928ec.js.map",
-    "787.7cbe4b7b.chunk.js.map": "/anke-myles-wedding/static/js/787.7cbe4b7b.chunk.js.map"
+    "main.css": "/static/css/main.32b4e557.css",
+    "main.js": "/static/js/main.700d5c63.js",
+    "static/js/787.7cbe4b7b.chunk.js": "/static/js/787.7cbe4b7b.chunk.js",
+    "static/media/family-christmas.jpeg": "/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
+    "static/media/family-happy.jpg": "/static/media/family-happy.cc20ac57e13b35016d20.jpg",
+    "static/media/vacation-pool.jpeg": "/static/media/vacation-pool.2ee01d1d6575854a6e15.jpeg",
+    "static/media/proposal-crop.jpeg": "/static/media/proposal-crop.fae22ec3ce6a16d3b049.jpeg",
+    "static/media/engagement-ring.jpeg": "/static/media/engagement-ring.a14b410c02eafb73da28.jpeg",
+    "static/media/flowers-crop-left.jpg": "/static/media/flowers-crop-left.30da7ccbbc067ce26dff.jpg",
+    "static/media/vacation-heart.jpeg": "/static/media/vacation-heart.a8b72b003c05dcba0d32.jpeg",
+    "static/media/flowers-crop-right.jpg": "/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
+    "static/media/photos-qr-code.png": "/static/media/photos-qr-code.25aec7c2982c05427a39.png",
+    "static/media/first-met.jpg": "/static/media/first-met.f7ac4da8a397f59c8d34.jpg",
+    "static/media/ma-heart.png": "/static/media/ma-heart.d2d46ee0dd7849bd6bf8.png",
+    "index.html": "/index.html",
+    "main.32b4e557.css.map": "/static/css/main.32b4e557.css.map",
+    "main.700d5c63.js.map": "/static/js/main.700d5c63.js.map",
+    "787.7cbe4b7b.chunk.js.map": "/static/js/787.7cbe4b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4d41f6c.css",
-    "static/js/main.1f8928ec.js"
+    "static/css/main.32b4e557.css",
+    "static/js/main.700d5c63.js"
   ]
 }
