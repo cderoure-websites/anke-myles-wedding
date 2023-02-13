@@ -13,9 +13,6 @@ const FAQ = () => {
 
   return (
     <div className="faq">
-      <div className="faq-title">
-        FAQ
-      </div>
       <div className="faq-section">
       <div className="faq-section-question">
           I have a question. Who do I reach out to?
