@@ -281,7 +281,9 @@ const Quiz = () => {
             </div>
           </div>
         </div>
-        <Button type="submit" text="Submit" />
+        <div className="quiz-form-button">
+          <Button type="submit" text="Submit" />
+        </div>
       </form>
       
       {results ? results : null}
