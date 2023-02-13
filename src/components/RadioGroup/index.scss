@@ -8,4 +8,9 @@
 
 .radio-item {
   padding-bottom: 10px;
+  cursor: pointer;
+
+  label {
+    cursor: pointer;
+  }
 }
