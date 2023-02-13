@@ -2,7 +2,13 @@ import React from 'react';
 
 import './index.scss';
 
-const RadioGroup = ({ title, name, items }) => {
+const RadioGroup = ({ title, name, items, onChange }) => {
+  const handleOnChange = (e) => {
+    if (onChange) {
+      onChange(e);
+    }
+  };
+
   return (
     <div className="radio-group">
       {title && (
@@ -13,7 +19,7 @@ const RadioGroup = ({ title, name, items }) => {
       <div className="radio-group-inputs">
         {items.map(({ label, id }) => (
           <div className="radio-item">
-            <input id={id} type="radio" name={name} value={id} />
+            <input onChange={handleOnChange} id={id} type="radio" name={name} value={id} />
             <label htmlFor={id}>{label}</label>
           </div>
         ))}

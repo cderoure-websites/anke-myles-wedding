@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Button from '../Button';
+import RadioGroup from '../RadioGroup';
 
 import './index.scss';
 
@@ -56,7 +57,7 @@ const RSVP = () => {
     const { value } = target;
     setArrival(value);
 
-    if (['reception', 'ceremony'].includes(value)) {
+    if (['Reception', 'Ceremony'].includes(value)) {
       setShowMeals(true);
     } else {
       setShowMeals(false);
@@ -126,39 +127,36 @@ const RSVP = () => {
             </div>
             <div className="rsvp-form-field rsvp-form-field-text-box">
               <label>Email:</label>
-              <input onChange={handleEmailChange} value={email}  type="text"/>
+              <input type="email" onChange={handleEmailChange} value={email} />
             </div>
-            <div className="rsvp-form-field">
-              <input onChange={handleUpdateAttending} type="radio" id="attendance-yes" name="attendance" value="YES"/>
-              <label for="attendance-yes">Yes, I would love to attend.</label>
-            </div>
-            <div className="rsvp-form-field">
-              <input onChange={handleUpdateAttending} type="radio" id="attendance-no" name="attendance" value="NO"/>
-              <label for="attendance-no">No, unfortunately I cannot attend.</label>
-            </div>
+            <RadioGroup
+              name="attendance"
+              onChange={handleUpdateAttending}
+              items={[
+                {label: "Yes, I would love to attend.", id: "YES"},
+                {label: "No, unfortunately I cannot attend.", id: "NO"},
+              ]}
+            />
             {attending && (
               <>
                 <h1>Arrival</h1>
-                <div className="rsvp-form-info">
-                  <b>Please check your invitation as to which time you are requested to arrive:</b>
-                </div>
-                <div className="rsvp-form-field">
-                  <input onChange={handleUpdateSection} type="radio" id="invitation-arrival" name="invitation" value="ceremony"/>
-                  <label for="ceremony">Ceremony</label>
-                </div>
-                <div className="rsvp-form-field">
-                  <input onChange={handleUpdateSection} type="radio" id="invitation-arrival" name="invitation" value="reception"/>
-                  <label for="reception">Reception</label>
-                </div>
-                <div className="rsvp-form-field">
-                  <input onChange={handleUpdateSection} type="radio" id="invitation-arrival" name="invitation" value="evening"/>
-                  <label for="evening">Evening</label>
-                </div>
+                <RadioGroup
+                  name="Invitation"
+                  onChange={handleUpdateSection}
+                  title="Please check your invitation as to which time you are requested to arrive:"
+                  items={[
+                    {label: "Ceremony", id: "Ceremony"},
+                    {label: "Reception", id: "Reception"},
+                    {label: "Evening", id: "Evening"},
+                  ]}
+                />
+
                 <h1>Music</h1>
                 <div className="rsvp-form-field rsvp-form-field-text-box">
                   <label for="music">Please let us know if you have any songs you would like us to play as we celebrate this special day:</label>
                   <input onChange={handleOnMusicChange} type="text" id="music" name="music" value={musicSuggestions} />
                 </div>
+
                 {showMeals && (
                   <>
                     <h1>Meals</h1>

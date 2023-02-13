@@ -51,7 +51,7 @@ const FAQ = () => {
           Absolutely! Please upload any photos from the day to our album:
 
           <a href="https://photos.app.goo.gl/3FaZgpJwpX1yjzeh9" className="qr-code">
-            <img alt="photo album" className="qr-code-img" src={QR_CODE} />
+            <img alt="google album" className="qr-code-img" src={QR_CODE} />
           </a>
         </div>
       </div>
