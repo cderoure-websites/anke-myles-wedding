@@ -78,10 +78,10 @@ const Quiz = () => {
           title="How many countries have we travelled together?"
           name="4"
           items={[
-            {label: '12', id: '4A'},
-            {label: '14', id: '4B'}, // correct answer
-            {label: '16', id: '4C'},
-            {label: '18', id: '4D'},
+            {label: '13', id: '4A'},
+            {label: '15', id: '4B'}, // correct answer
+            {label: '17', id: '4C'},
+            {label: '19', id: '4D'},
           ]}
         />
         <RadioGroup 

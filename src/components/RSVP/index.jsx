@@ -23,6 +23,9 @@ const RSVP = () => {
   const [arrival, setArrival] = useState('');
   const [dietaryRequirements, setDietaryRequirements] = useState('');
   const [musicSuggestions, setMusicSuggestions] = useState('');
+  const [starterChoice, setStarterChoice] = useState('');
+  const [mainChoice, setMainChoice] = useState('');
+  const [dessertChoice, setDessertChoice] = useState('');
 
   const handleFirstNameChange = ({ target }) => {
     const { value } = target;
@@ -53,6 +56,21 @@ const RSVP = () => {
     setAttending(target.value === 'YES')
   };
 
+  const handleUpdateStarters = ({ target }) => {
+    const { value } = target;
+    setStarterChoice(value);
+  };
+
+  const handleUpdateMains = ({ target }) => {
+    const { value } = target;
+    setMainChoice(value);
+  };
+
+  const handleUpdateDesserts = ({ target }) => {
+    const { value } = target;
+    setDessertChoice(value);
+  };
+
   const handleUpdateSection = ({ target }) => {
     const { value } = target;
     setArrival(value);
@@ -79,6 +97,9 @@ const RSVP = () => {
       'First Name': firstName,
       'Last Name': lastName,
       'Music Suggestions': musicSuggestions,
+      'Starter Choice': starterChoice,
+      'Main Choice': mainChoice,
+      'Dessert Choice': dessertChoice,
     };
 
     // submit the form:
@@ -166,6 +187,33 @@ const RSVP = () => {
                         <input onChange={handleOnMealChange} type="text" id="meals" name="meals" value={dietaryRequirements} />
                       </div>
                     </div>
+                    <RadioGroup
+                      name="starters"
+                      title="Starters"
+                      onChange={handleUpdateStarters}
+                      items={[
+                        {label: "Starter 1", id: "starter-1"},
+                        {label: "Starter 2", id: "starter-2"},
+                      ]}
+                    />
+                    <RadioGroup
+                      name="mains"
+                      title="Mains"
+                      onChange={handleUpdateMains}
+                      items={[
+                        {label: "Main 1", id: "main-1"},
+                        {label: "Main 2", id: "main-2"},
+                      ]}
+                    />
+                    <RadioGroup
+                      name="desserts"
+                      title="Desserts"
+                      onChange={handleUpdateDesserts}
+                      items={[
+                        {label: "Dessert 1", id: "dessert-1"},
+                        {label: "Dessert 2", id: "dessert-2"},
+                      ]}
+                    />
                   </>
                 )}
 
@@ -177,7 +225,9 @@ const RSVP = () => {
               Something has gone wrong. Please try again.
             </div>
           )}
-          <Button loading={loading} onClick={submitForm} text="RSVP" />
+          <div className="rsvp-button">
+            <Button loading={loading} onClick={submitForm} text="RSVP" />
+          </div>
         </div>
       )}
     </div>
