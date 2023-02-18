@@ -187,6 +187,9 @@ const RSVP = () => {
                         <input onChange={handleOnMealChange} type="text" id="meals" name="meals" value={dietaryRequirements} />
                       </div>
                     </div>
+                    <div>
+                      We have the following meal options:
+                    </div>
                     <RadioGroup
                       name="starters"
                       title="Starters"

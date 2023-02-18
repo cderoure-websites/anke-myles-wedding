@@ -139,6 +139,7 @@
 
     @media (max-width: 800px) {
       width: 100%;
+      color: $tertiaryColor;
     }
 
     &-divider {
@@ -150,13 +151,21 @@
     &-active {
       text-decoration: underline;
       font-weight: bold;
-      color: $primaryColor;
+      color: $fontColor;
+
+      @media (max-width: 800px) {
+        color: $tertiaryColor;
+      }
     }
 
     &:hover {
-      color: $primaryColor;
+      color: $fontColor;
       font-weight: bold;
       cursor: pointer;
+
+      @media (max-width: 800px) {
+        color: $tertiaryColor;
+      }
     }
   }
 }
