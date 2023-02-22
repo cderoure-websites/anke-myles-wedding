@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8b94886.css",
-    "main.js": "/static/js/main.6773ae6c.js",
+    "main.css": "/static/css/main.3730bb29.css",
+    "main.js": "/static/js/main.146c14dd.js",
     "static/js/787.7cbe4b7b.chunk.js": "/static/js/787.7cbe4b7b.chunk.js",
     "static/media/family-christmas.jpeg": "/static/media/family-christmas.a156a91ee9685a28b474.jpeg",
     "static/media/family-happy.jpg": "/static/media/family-happy.cc20ac57e13b35016d20.jpg",
@@ -11,16 +11,15 @@
     "static/media/flowers-crop-left.jpg": "/static/media/flowers-crop-left.30da7ccbbc067ce26dff.jpg",
     "static/media/vacation-heart.jpeg": "/static/media/vacation-heart.a8b72b003c05dcba0d32.jpeg",
     "static/media/flowers-crop-right.jpg": "/static/media/flowers-crop-right.74b14d99b94511e42654.jpg",
-    "static/media/photos-qr-code.png": "/static/media/photos-qr-code.25aec7c2982c05427a39.png",
     "static/media/first-met.jpg": "/static/media/first-met.f7ac4da8a397f59c8d34.jpg",
     "static/media/ma-heart.png": "/static/media/ma-heart.d2d46ee0dd7849bd6bf8.png",
     "index.html": "/index.html",
-    "main.b8b94886.css.map": "/static/css/main.b8b94886.css.map",
-    "main.6773ae6c.js.map": "/static/js/main.6773ae6c.js.map",
+    "main.3730bb29.css.map": "/static/css/main.3730bb29.css.map",
+    "main.146c14dd.js.map": "/static/js/main.146c14dd.js.map",
     "787.7cbe4b7b.chunk.js.map": "/static/js/787.7cbe4b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8b94886.css",
-    "static/js/main.6773ae6c.js"
+    "static/css/main.3730bb29.css",
+    "static/js/main.146c14dd.js"
   ]
 }
