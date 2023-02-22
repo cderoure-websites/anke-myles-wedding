@@ -35,12 +35,6 @@ const TheDay = () => {
           <p>Let's celebrate the newlyweds with some drinks and dancing!</p>
         </div>
       </div>
-      <div>
-        <h1>Dress Code</h1>
-        <div>
-          <div className="the-day-key-info">Formal attire is requested.</div>
-        </div>
-      </div>
     </div>
   )
 };
