@@ -9,7 +9,9 @@ const TheDay = () => {
         19th August 2023
       </div>
       <div>
-        <h1>Ceremony</h1>
+        <div className="the-day-title">
+          <h1>The Ceremony</h1>
+        </div>
         <div>
           <div className="the-day-key-info">13:30 - 14:15</div>
           <div className="the-day-key-info">The Mansion, 70 Church St, Leatherhead KT22 8DP</div>
@@ -18,7 +20,9 @@ const TheDay = () => {
         </div>
       </div>
       <div>
-        <h1>Reception</h1>
+        <div className="the-day-title">
+          <h1>The Reception</h1>
+        </div>
         <div>
           <div className="the-day-key-info">15:00 - 00:00</div>
           <div className="the-day-key-info">Tyrrells Wood GC, Leatherhead KT22 8QP</div>
@@ -28,7 +32,9 @@ const TheDay = () => {
         </div>
       </div>
       <div>
-        <h1>Evening</h1>
+        <div className="the-day-title">
+          <h1>The Evening</h1>
+        </div>
         <div>
           <div className="the-day-key-info">19:00 - 00:00</div>
           <div className="the-day-key-info">Tyrrells Wood GC, Leatherhead KT22 8QP</div>

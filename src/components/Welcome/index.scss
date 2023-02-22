@@ -3,24 +3,11 @@
 
 .welcome {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 
   @media (max-width: 800px) {
     padding: 20px;
-    flex-direction: column;
-  }
-
-  &-rhs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-    @media (max-width: 800px) {
-      width: 100%;
-    }
   }
 
   &-rsvp {
@@ -40,13 +27,11 @@
   }
 
   &-countdown {
-    color: $secondaryColor;
-    font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    color: $tertiaryColor;
+    font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 
     @media (max-width: 800px) {
       padding-top: 20px;
@@ -66,25 +51,23 @@
 }
 
 .welcome-signature {
-  font-size: $headingFontSize;
-  text-transform: uppercase;
-  font-family: $headingFont;
-  padding-bottom: 40px;
   color: $primaryColor;
+  font-family: $headingFont;
+  font-size: $headingFontSize;
+  padding-bottom: 40px;
+  text-transform: uppercase;
   
   transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg);
 }
 
 .welcome-content {
-  padding-top: 20px;
-  max-width: 400px;
   line-height: 24px;
   padding-bottom: 20px;
+  padding-top: 20px;
+  width: 600px;
 
   @media (max-width: 800px) {
-    width: auto;
-    padding: 10px;
-    line-height: 24px;
+    width: 100%;
   }
 }
