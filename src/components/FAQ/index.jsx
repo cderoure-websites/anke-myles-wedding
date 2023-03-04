@@ -45,7 +45,7 @@ const FAQ = () => {
           Do you have a gift registry?
         </div>
         <div className="faq-section-answer">
-          The most important gift to us is to have you share our special day, but if you wish to contribute in some other way, we would love a few pennies to put in our pot, for our honeymoon trip after tying the knot.
+          The most important gift to us is to have you share our special day, but if you wish to contribute in some other way, we would love a few pennies to put in our pot, for our honeymoon trip to Mauritius after tying the knot.
         </div>
         <div className="faq-section-answer">
           <a href={PREZOLA_LINK} className="registry-link">

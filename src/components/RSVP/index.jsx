@@ -195,8 +195,8 @@ const RSVP = () => {
                       title="Starters"
                       onChange={handleUpdateStarters}
                       items={[
-                        {label: "Starter 1", id: "starter-1"},
-                        {label: "Starter 2", id: "starter-2"},
+                        {label: "White Devonshire crab and prawn crostini topped with crushed avocado and pomegranate", id: "crab"},
+                        {label: "Smoked chicken liver parfait with a baby beetroot and rocket salad accompanied by an apple chutney.", id: "parfait"},
                       ]}
                     />
                     <RadioGroup
@@ -204,8 +204,8 @@ const RSVP = () => {
                       title="Mains"
                       onChange={handleUpdateMains}
                       items={[
-                        {label: "Main 1", id: "main-1"},
-                        {label: "Main 2", id: "main-2"},
+                        {label: "8oz Beef fillet with roasted celiac puree and a pink peppercorn sauce", id: "beef"},
+                        {label: "Corn Fed Chicken Supreme with creamed cabbage, gravy and honey glazed pig in blanket", id: "chicken"},
                       ]}
                     />
                     <RadioGroup
@@ -213,8 +213,8 @@ const RSVP = () => {
                       title="Desserts"
                       onChange={handleUpdateDesserts}
                       items={[
-                        {label: "Dessert 1", id: "dessert-1"},
-                        {label: "Dessert 2", id: "dessert-2"},
+                        {label: "Sticky toffee pudding topped with toffee sauce and Cornish vanilla ice cream", id: "toffee"},
+                        {label: "Lemon and lime citrus cheesecake with blue berries and whipped Chantilly cream", id: "cheesecake"},
                       ]}
                     />
                   </>
