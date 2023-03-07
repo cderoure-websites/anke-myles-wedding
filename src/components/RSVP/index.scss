@@ -11,6 +11,13 @@
     padding: 20px;
   }
 
+  &-alert {
+    color: $tertiaryColor;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
   &-success {
     &-description {
       margin-top: 40px;

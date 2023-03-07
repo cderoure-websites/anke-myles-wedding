@@ -11,7 +11,8 @@ const RSVP = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
-  
+  const [pageMessage, setPageMessage] = useState('');
+
   // sections
   const [attending, setAttending] = useState(false);
   const [showMeals, setShowMeals] = useState(false);
@@ -83,6 +84,13 @@ const RSVP = () => {
   }
 
   const submitForm = () => {
+    setPageMessage('');
+
+    if (!firstName || !email || !arrival) {
+      setPageMessage('Please make sure all sections are complete!');
+      return;
+    }
+
     // reset states:
     setSuccess(false);
     setError(false);
@@ -137,7 +145,7 @@ const RSVP = () => {
           <div className="rsvp-attendance">
             <div className="rsvp-form-info">Complete the below for each person in attendance as per the names on your invitation.</div>
             <div className="rsvp-form-info">Please note that we request only the children of our siblings on this day.</div>
-        
+
             <div className="rsvp-form-field rsvp-form-field-text-box">
               <label>Name:</label>
               <input onChange={handleFirstNameChange} value={firstName} type="text"/>
@@ -226,6 +234,11 @@ const RSVP = () => {
           {error && (
             <div className="rsvp-error">
               Something has gone wrong. Please try again.
+            </div>
+          )}
+          {pageMessage && (
+            <div className="rsvp-alert">
+              {pageMessage}
             </div>
           )}
           <div className="rsvp-button">
