@@ -47,6 +47,10 @@ const App = () => {
     setTab(id);
   };
 
+  const handleClickRSVP = () => {
+    handleTabChange(PAGES.RSVP)
+  };
+
   return (
     <div className="app">
       <div className="app-content">
@@ -63,7 +67,7 @@ const App = () => {
           <>
           <Header selectedTab={tab} loggedIn={loggedIn} changeTab={handleTabChange} />
           <div className="app-page">
-            {tab === PAGES.HOME && <Welcome onClickRSVP={() => setTab(PAGES.RSVP)}/>}
+            {tab === PAGES.HOME && <Welcome onClickRSVP={handleClickRSVP}/>}
             {tab === PAGES.STORY && <Story />}
             {tab === PAGES.DAY && <TheDay />}
             {tab === PAGES.ACCOMMODATION && <Accommodation />}
