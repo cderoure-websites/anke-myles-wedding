@@ -86,7 +86,7 @@ const RSVP = () => {
   const submitForm = () => {
     setPageMessage('');
 
-    if (!firstName || !email || (attending &&!arrival)) {
+    if (!firstName || !email || (attending && !arrival)) {
       setPageMessage('Please make sure all sections are complete!');
       return;
     }
