@@ -10,6 +10,7 @@ import Accommodation from './components/Accommodation';
 import RSVP from './components/RSVP';
 import Quiz from './components/Quiz';
 import FAQ from './components/FAQ';
+import Registry from './components/Registry';
 
 import PAGES from './constants/pages.js'
 
@@ -70,6 +71,7 @@ const App = () => {
             {tab === PAGES.HOME && <Welcome onClickRSVP={handleClickRSVP}/>}
             {tab === PAGES.STORY && <Story />}
             {tab === PAGES.DAY && <TheDay />}
+            {tab === PAGES.REGISTRY && <Registry />}
             {tab === PAGES.ACCOMMODATION && <Accommodation />}
             {tab === PAGES.RSVP && <RSVP />}
             {tab === PAGES.QUIZ && <Quiz />}

@@ -1,7 +1,7 @@
 @import 'src/styles/colors.scss';
 @import 'src/styles/fonts.scss';
 
-.faq {
+.registry {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -21,13 +21,7 @@
   }
 
   &-section {
-    &-question {
-      padding: 20px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-  
-    &-answer {
+    &-row {
       padding: 20px;
 
       div:nth-child(2) {
@@ -36,14 +30,11 @@
     }
   }
 
-  .qr-code {
-    width: 200px;
-    height: 200px;
+  .registry-link {
+    width: 150px;
 
     &-img {
-      padding-top: 40px;
-      width: 200px;
-      height: 200px;
+      width: 150px;
     }
   }
 }
