@@ -37,7 +37,7 @@ const TheDay = () => {
           <h1>The Evening</h1>
         </div>
         <div>
-          <div className="the-day-key-info">19:00 - 00:00</div>
+          <div className="the-day-key-info">19:00 - 00:30</div>
           <div className="the-day-key-info">Tyrrells Wood GC, Leatherhead KT22 8QP</div>
           <p>Let's celebrate the newlyweds with some drinks and dancing!</p>
         </div>
