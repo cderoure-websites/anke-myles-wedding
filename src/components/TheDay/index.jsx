@@ -25,7 +25,7 @@ const TheDay = () => {
           <h1>The Reception</h1>
         </div>
         <div>
-          <div className="the-day-key-info">15:00 - 00:00</div>
+          <div className="the-day-key-info">15:00 - 00:30</div>
           <div className="the-day-key-info">Tyrrells Wood GC, Leatherhead KT22 8QP</div>
           <p>The newlyweds will meet you on the terrace at 15:00, so please arrive from 14:30 onwards and grab a nice cold drink in readiness for our arrival.</p>
           <p>Please be mindful of golfers who will still be trying to make that final putt, and those making use of the Clubhouse for a cold pint!</p>
@@ -40,6 +40,7 @@ const TheDay = () => {
           <div className="the-day-key-info">19:00 - 00:30</div>
           <div className="the-day-key-info">Tyrrells Wood GC, Leatherhead KT22 8QP</div>
           <p>Let's celebrate the newlyweds with some drinks and dancing!</p>
+          <p>Carriages at 00:30</p>
         </div>
       </div>
     </div>
