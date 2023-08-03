@@ -15,7 +15,7 @@ const TheDay = () => {
         <div>
           <div className="the-day-key-info">13:30 - 14:15</div>
           <div className="the-day-key-info">The Mansion, 70 Church St, Leatherhead KT22 8DP</div>
-          <p>Please arrive no later than 13:00 to be seated ahead of the Bride and Groom's arrival, with the ceremony and celebrations starting at 13:30.</p>
+          <p>Please arrive no later than 13:00, to be seated no later than 13:15 ahead of the Bride and Groom's arrival, with the ceremony and celebrations starting at 13:30.</p>
           <p>Parking is available on site, however is limited so would recommend arriving by horse/carriage.</p>
           <p>Please arrange carriages departing from 14:20 to the Reception for further celebrations.</p>
         </div>
